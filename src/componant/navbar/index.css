@@ -1,0 +1,39 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: violet;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.mrgn{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+    cursor: pointer;
+    
+    
+}
+.navcon{
+    text-decoration: none;
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.btn{
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100px;
+    background-color: var(--ast-global-color-0);
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid;
+}
