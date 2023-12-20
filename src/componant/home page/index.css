@@ -73,11 +73,17 @@ body{
 }
 .mainthree{
     background-color: azure;
+    margin-top: 10px;
 }
 .mainfour{
     background-color: azure;
     padding-top: 70px;
     padding-bottom: 100px;
+}
+.widthmargin{
+    width: 350px;
+   margin-left: 40px;
+   color: darkblue;
 }
 .cardone{
     background-color: rgb(255, 255, 255, 0.2);
@@ -157,4 +163,128 @@ body{
     width: 30%;
     height: 40px;
     background-color: azure;
+}
+.mediawidth{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+}
+.medibtn{
+    background-color: red;
+    height: 50px;
+    border: none;
+    width: 10%;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer,
+}
+.lastmedia{
+    background-color: violet;
+    padding: 30px;
+}
+.frame{
+   
+margin: auto;}
+@media(max-width:1000px){
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+   .main{
+    display: block;
+    text-align: center;
+    margin: auto;
+   }
+  .icon{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .media{
+    padding: 20px;
+    margin: auto;
+  }
+ 
+  .text{
+    margin: auto;
+    width: 80%;
+  }
+  .maintwo{
+    display: block;
+  }
+  .textone{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+.textwo{
+      padding: 20px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+  }
+  .widthmargin{
+    width: 80%;
+    text-align: center;
+  }
+  .mediawidth{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .chaidmain{
+    display: block;
+    width: 100%;
+  }
+  .cardone{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .none{
+    display: none;
+  }
+  .flex{
+    display: block;
+  }
+  .cardone2{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+.cardone3{
+      width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.cardone4{
+      width: 50%;
+      margin: auto;
+      margin-bottom: 20px;
+
+  }
+  .last{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .inp{
+    width: 80%;
+    margin: auto;
+}
+.medibtn{
+      margin: auto;
+      margin-top: 20px;
+      border: none;
+      cursor: pointer;
+      width: 50%
+  }
+  .lastmedia{
+    text-align: center;
+  }
+
 }

@@ -25,11 +25,9 @@ const About = () => {
           className="flex"
           style={{ paddingTop: "50px", paddingBottom: "30px" }}
         >
-          <img src="a.png" alt="" height={"500px"} />
+          <img src="a.png" alt="" height={"500px"} className="imgmedia" />
 
-          <div
-            style={{ width: "300px", fontSize: "20px", letterSpacing: "2px" }}
-          >
+          <div className="media2">
             <h1 style={{ color: "purple" }}>
               Designing With Passion While Exploring The World
             </h1>
@@ -49,9 +47,7 @@ const About = () => {
             </b>
           </div>
 
-          <div
-            style={{ width: "300px", fontSize: "20px", letterSpacing: "2px" }}
-          >
+          <div className="media2">
             <h1 style={{ color: "purple" }}>I Create Products Not Just Arts</h1>
             <hr style={{ width: "100px" }} />
             <p>
@@ -85,13 +81,10 @@ const About = () => {
       {/* second section */}
       <section>
         <div
-          style={{
-            display: "flex",
-            justifyContent: "space-around",
-            letterSpacing: "2px",
-          }}
+        className="media3"
+        
         >
-          <div style={{ fontSize: "20px", width: "40%" }}>
+          <div className="mediawidth" >
             <h1>Frontend and Backend Developer</h1>
             <hr style={{ width: "100px" }} />
             <p>
@@ -114,7 +107,7 @@ const About = () => {
               Download CV
             </button>
           </div>
-          <div style={{ width: "40%" }}>
+          <div className="media4">
             <div
               style={{
                 backgroundColor: "blanchedalmond",
@@ -305,29 +298,28 @@ const About = () => {
               placeholder="Enter Email Addrees"
             />
             <button
-              style={{
-                backgroundColor: "red",
-                height: "50px",
-                border: "none",
-                width: "10%",
-                fontSize: "20px",
-                color: "white",
-                marginLeft: "10px",
-                cursor: "pointer",
-              }}
+             className="medibtn"
             >
               Subscribe
             </button>
           </div>
         </div>
-        <div style={{ backgroundColor: "violet", padding: "30px" }}>
+        <div className="lastmedia">
           <div className="flex">
             <div style={{ fontSize: "40px" }}>
-              <FacebookFilled style={{ margin: "10px", color: "blue", cursor:"pointer"}} />
-              <TwitterSquareFilled style={{ margin: "10px", color: "aqua", cursor:"pointer" }} />
-              <InstagramFilled style={{ margin: "10px", color: "purple", cursor:"pointer" }} />
-              <YoutubeFilled style={{ margin: "10px", color: "red", cursor:"pointer" }} />
-              <GithubFilled style={{ margin: "10px", cursor:"pointer" }} />
+              <FacebookFilled
+                style={{ margin: "10px", color: "blue", cursor: "pointer" }}
+              />
+              <TwitterSquareFilled
+                style={{ margin: "10px", color: "aqua", cursor: "pointer" }}
+              />
+              <InstagramFilled
+                style={{ margin: "10px", color: "purple", cursor: "pointer" }}
+              />
+              <YoutubeFilled
+                style={{ margin: "10px", color: "red", cursor: "pointer" }}
+              />
+              <GithubFilled style={{ margin: "10px", cursor: "pointer" }} />
             </div>
             <div>
               <h1>PORTFILIO</h1>
@@ -336,8 +328,10 @@ const About = () => {
               <h1>naeemsolangi604@gmail.com</h1>
             </div>
           </div>
-          <div style={{textAlign:"center", padding:"40px"}}>
-            <p><b>Copyright © 2023 Personal Portfolio</b></p>
+          <div style={{ textAlign: "center", padding: "40px" }}>
+            <p>
+              <b>Copyright © 2023 Personal Portfolio</b>
+            </p>
           </div>
         </div>
       </section>

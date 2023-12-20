@@ -48,7 +48,7 @@ const Contact = () => {
             <p>Contact me every time!</p>
           </div>
         </div>
-        <div style={{display:"flex", justifyContent:"space-evenly"}}>
+        <div className="prnt">
           <div className="cardone6">
             <h1 style={{ fontSize: "40px", color: "purple" }}>Get In Touch</h1>
             <hr style={{ width: "100px", float: "left" }} />
@@ -106,7 +106,7 @@ const Contact = () => {
             </button>
           </div>
           <div
-            style={{ width: "200px", fontSize: "20px", marginTop:"5%"}}
+           className="secondlast" 
           >
             <h1 style={{ color: "purple" }}>Message Me</h1>
             <hr style={{ width: "60px" }} />
@@ -134,7 +134,7 @@ const Contact = () => {
       </section>
       {/* last section */}
       <section>
-        <div style={{ backgroundColor: "violet", padding: "30px", marginTop:"100px"}}>
+        <div className="lastmedia">
           <div className="flex">
             <div style={{ fontSize: "40px" }}>
               <FacebookFilled style={{ margin: "10px", color: "blue", cursor:"pointer"}} />

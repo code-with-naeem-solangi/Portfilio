@@ -1,0 +1,27 @@
+.lastmedia {
+  background-color: violet;
+  padding: 30px;
+}
+.laibimg {
+  width: 45%;
+  /* height: 10%; */
+  margin-left: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.flex2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media (max-width: 1000px) {
+  .lastmedia {
+    text-align: center;
+  }
+  .flex2 {
+    display: block;
+  }
+  .laibimg {
+    width: 90%;
+  }
+}

@@ -1,12 +1,33 @@
 import React from 'react'
 import "./index.css"
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import { DownOutlined, MenuOutlined } from '@ant-design/icons';
+import { Dropdown, Space } from 'antd';
 const Nav = () => {
+  
+const items = [
+  {
+    label: <Link to={"/"}>Home</Link>,
+    key: '0',
+  },
+  {
+    label: <Link to={"/about"}>About Me</Link>,
+    key: '1',
+  },
+  {
+    label:  <Link to={"/portfiliao"}>Portfolio</Link>,
+    key: '2',
+  },
+  {
+    label:  <Link to={"/contact"}>Contact</Link>,
+    key: '3',
+  },
+];
   return (
     <div>
         <div className="nav">
         <div>
-          <h2 style={{ cursor: "pointer" }}>PORTFILIO</h2>
+          <h2  style={{ cursor: "pointer" }}>PORTFILIO</h2>
         </div>
 
         <div className="navcon">
@@ -73,6 +94,19 @@ const Nav = () => {
         </div>
         <button className="btn">HIRE ME</button>
       </div>
+      {/* mobile nav */}
+      <Dropdown  className='mobileview'
+    menu={{
+      items,
+    }}
+    trigger={['click']}
+  >
+    <a onClick={(e) => e.preventDefault()}>
+      <Space>
+        <MenuOutlined/>
+      </Space>
+    </a>
+  </Dropdown>
     </div>
   )
 }

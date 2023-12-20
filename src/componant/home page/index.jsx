@@ -28,6 +28,7 @@ const Index = () => {
         <div className="main">
           <div className="icon">
             <LinkedinOutlined
+              className="media"
               style={{
                 color: " orange",
                 marginTop: "30px",
@@ -35,6 +36,7 @@ const Index = () => {
               }}
             />
             <InstagramOutlined
+              className="media"
               style={{
                 color: "purple",
                 marginTop: "30px",
@@ -42,6 +44,7 @@ const Index = () => {
               }}
             />
             <GithubOutlined
+              className="media"
               style={{
                 color: "black",
                 marginTop: "30px",
@@ -49,6 +52,7 @@ const Index = () => {
               }}
             />
             <FacebookOutlined
+              className="media"
               style={{
                 color: "blue",
                 marginTop: "30px",
@@ -56,6 +60,7 @@ const Index = () => {
               }}
             />
             <GoogleOutlined
+              className="media"
               style={{
                 color: "red",
                 marginTop: "30px",
@@ -63,6 +68,7 @@ const Index = () => {
               }}
             />
             <WhatsAppOutlined
+              className="media"
               style={{
                 color: "green",
                 marginTop: "30px",
@@ -96,10 +102,10 @@ const Index = () => {
         <hr style={{ width: "200px" }} />
       </div>
       <div>
-        <h1 style={{ width: "350px", marginLeft: "40px", color: "darkblue" }}>
+        <h1 className="widthmargin">
           Developing With a Passion While Exploring The World.
         </h1>
-        <hr style={{ width: "60px", marginLeft: "40px" }} />
+        <hr className="none" style={{ width: "60px", marginLeft: "40px" }} />
       </div>
       {/* section three */}
       <div className="maintwo">
@@ -123,24 +129,13 @@ const Index = () => {
           </p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-        <div style={{ width: "400px", display: "flex" }}>
-          <div
-            style={{
-              backgroundColor: "green",
-              borderRadius: "10px",
-              paddingTop: "10px",
-              paddingBottom: "20px",
-              marginLeft: "20px",
-              height: "350px",
-            }}
-          ></div>
+        <div>
+         
 
           <img
             src="aa.jpg"
             alt="image"
-            width={"350px"}
-            height={"300px"}
-            style={{ borderRadius: "10px" }}
+            className="mediawidth"
           />
         </div>
       </div>
@@ -328,13 +323,11 @@ const Index = () => {
             <hr style={{ width: "200px" }} />
           </div>
 
-          <iframe
-            src="https://dice-game-jet-psi.vercel.app/"
-            frameborder="0"
-            height={"600px"}
-            width={"100%"}
-          ></iframe>
+            
+<div className="frame">
+<img src="./dice game img.png" width={"60%"}  style={{marginLeft:"20%", borderRadius:"10px"}} />
 
+</div>
           <div className="crnt">
             <h1 style={{ color: "darkblue", marginTop: "10%" }}>
               What My Clients Says
@@ -425,30 +418,23 @@ const Index = () => {
             Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </p>
           <hr style={{ width: "100px" }} />
-          <div style={{ marginTop: "50px" }}>
+          <div style={{ marginTop: "50px" }} className="last">
             <input
               type="email"
               name="email"
               className="inp"
               placeholder="Enter Email Addrees"
+              
             />
             <button
-              style={{
-                backgroundColor: "red",
-                height: "50px",
-                border: "none",
-                width: "10%",
-                fontSize: "20px",
-                color: "white",
-                marginLeft: "10px",
-                cursor: "pointer",
-              }}
+              
+              className="medibtn"
             >
               Subscribe
             </button>
           </div>
         </div>
-        <div style={{ backgroundColor: "violet", padding: "30px" }}>
+        <div className="lastmedia" >
           <div className="flex">
             <div style={{ fontSize: "40px" }}>
               <FacebookFilled style={{ margin: "10px", color: "blue", cursor:"pointer"}} />
