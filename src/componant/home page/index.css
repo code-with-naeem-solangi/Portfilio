@@ -194,6 +194,9 @@ body {
     display: flex;
     flex-direction: row;
   }
+  .imgwidthinmedia{
+    width: 80%;
+  }
   .media {
     padding: 20px;
     margin: auto;

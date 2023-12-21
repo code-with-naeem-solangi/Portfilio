@@ -88,7 +88,7 @@ const Index = () => {
 
             <button className="btn2">HIRE ME</button>
           </div>
-          <img src="a.png" alt="image" height={"500px"} />
+          <img src="a.png" alt="image" height={"500px"} className="imgwidthinmedia"/>
         </div>
       </section>
       {/* section two */}
@@ -447,7 +447,7 @@ const Index = () => {
               <h1>PORTFILIO</h1>
             </div>
             <div>
-              <h1>naeemsolangi604@gmail.com</h1>
+              <h1>naeemsolangi604</h1>
             </div>
           </div>
           <div style={{textAlign:"center", padding:"40px"}}>
