@@ -82,12 +82,8 @@ const Contact = () => {
               placeholder="Enter Your Massege"
               cols="78"
               rows="10"
-              style={{
-                backgroundColor: "azure",
-                border: "1px solid",
-                paddingLeft: "10px",
-                marginTop: "20px",
-              }}
+              className="textteria"
+           
             ></textarea>
             <p>0 of 1 max characters.</p>
             <button

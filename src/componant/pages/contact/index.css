@@ -33,6 +33,12 @@
   width: 200px;
   margin-top: 5%;
 }
+.textteria{
+  background-color: azure;
+  border: 1px solid;
+  padding-left: 10px;
+  margin-top: 20px;
+}
 @media(max-width:1000px){
   .lastmedia{
       text-align: center;
@@ -52,5 +58,8 @@
     .secondlast{
       width: 100%;
       text-align: center;
+    }
+    .textteria{
+      width: 90%;
     }
 }

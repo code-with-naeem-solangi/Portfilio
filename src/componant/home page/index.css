@@ -1,243 +1,236 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 2px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
 }
-.btn2{
-    height: 50px;
-    margin-top: 50px;
-    margin-bottom: auto;
-    width: 150px;
-    
-    border-radius: 10px;
-    cursor: pointer;
+.btn2 {
+  height: 50px;
+  margin-top: 50px;
+  margin-bottom: auto;
+  width: 150px;
+
+  border-radius: 10px;
+  cursor: pointer;
 }
-.btn3{
-    height: 50px;
-    margin-top: 10px;
-    margin-bottom: auto;
-    width: 150px;
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: cornflowerblue;
-    border: none;
-    color: white;
-    
+.btn3 {
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: auto;
+  width: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: cornflowerblue;
+  border: none;
+  color: white;
 }
-.main{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 60px;
-    background-color: snow;
-    margin: auto;
+.main {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+  background-color: snow;
+  margin: auto;
 }
 
-.text{
-    width: 500px;
-    
+.text {
+  width: 500px;
 }
-.icon{
-    font-size: 30px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+.icon {
+  font-size: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
-.crnt{
-    text-align: center;
-    padding: 10px;
-    font-size: 20px;
+.crnt {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
 }
-.crnt2{
-    text-align: center;
-    padding: 10px;
-    font-size: 20px;
-    color: white;
-    padding-top: 190px;
-    padding-bottom: 60px;
-    background-color: rgb(100, 100, 100, 0.2);
-   
+.crnt2 {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  padding-top: 190px;
+  padding-bottom: 60px;
+  background-color: rgb(100, 100, 100, 0.2);
 }
-.maintwo{
-    display: flex;
-    justify-content: space-around;   
+.maintwo {
+  display: flex;
+  justify-content: space-around;
 }
-.textone{
-    width: 350px;
-    font-size: 20px;
-    
+.textone {
+  width: 350px;
+  font-size: 20px;
 }
-.textwo{
-    
-    width: 350px;
-    font-size: 20px;
-
+.textwo {
+  width: 350px;
+  font-size: 20px;
 }
-.mainthree{
-    background-color: azure;
-    margin-top: 10px;
+.mainthree {
+  background-color: azure;
+  margin-top: 10px;
 }
-.mainfour{
-    background-color: azure;
-    padding-top: 70px;
-    padding-bottom: 100px;
+.mainfour {
+  background-color: azure;
+  padding-top: 70px;
+  padding-bottom: 100px;
 }
-.widthmargin{
-    width: 350px;
-   margin-left: 40px;
-   color: darkblue;
+.widthmargin {
+  width: 350px;
+  margin-left: 40px;
+  color: darkblue;
 }
-.cardone{
-    background-color: rgb(255, 255, 255, 0.2);
+.cardone {
+  background-color: rgb(255, 255, 255, 0.2);
   box-shadow: 0px 8px 20px 0 rgb(0, 0, 255, 0.33);
-    padding: 20px;
-    width: 300px;
-    text-align: center  ;
-    border-radius: 10px;
-    font-size: 20px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
 }
-.cardone2{
-    background-color: rgb(255, 255, 255, 0.2);
+.cardone2 {
+  background-color: rgb(255, 255, 255, 0.2);
   box-shadow: 0px 8px 20px 0 rgb(0, 0, 255, 0.33);
-    padding: 20px;
-    max-width: 600px;
-    border-radius: 10px;
-    font-size: 20px;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 10px;
+  font-size: 20px;
 }
-.cardone3{
-    background-color: rgb(255, 255, 255, 0.2);
+.cardone3 {
+  background-color: rgb(255, 255, 255, 0.2);
   box-shadow: 0px 8px 20px 0 rgb(0, 0, 255, 0.33);
-    padding: 20px;
-    max-width: 350px;
-    border-radius: 10px;
-    font-size: 20px;
-    margin-top: 5%;
+  padding: 20px;
+  max-width: 350px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 5%;
 }
-.cardone4{
-    background-color: rgb(255, 255, 255, 0.2);
+.cardone4 {
+  background-color: rgb(255, 255, 255, 0.2);
   box-shadow: 0px 8px 20px 0 rgb(0, 0, 255, 0.33);
-    padding: 20px;
-    max-width: 300px;
-    border-radius: 10px;
-    font-size: 20px;
-    margin-top: 5%;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
+  padding: 20px;
+  max-width: 300px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 5%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
 }
-.chaidmain{
-    display: flex;
-    justify-content: space-around;
+.chaidmain {
+  display: flex;
+  justify-content: space-around;
 }
-.mrgntop{
-    margin-top: 100px;
-    width: 100%;
-    background: url(../../../public/mac.jpg);
-    height: 500px;
+.mrgntop {
+  margin-top: 100px;
+  width: 100%;
+  background: url(../../../public/mac.jpg);
+  height: 500px;
 }
-.cursr:hover{
-    color: lightsalmon;
+.cursr:hover {
+  color: lightsalmon;
 }
-.flex{
-    display: flex;
-    justify-content: space-around;
+.flex {
+  display: flex;
+  justify-content: space-around;
 }
-.backcolor{
-    height: 20px;
-    width: 100%;
-    background-color: blanchedalmond;
-    border-radius: 10px;
+.backcolor {
+  height: 20px;
+  width: 100%;
+  background-color: blanchedalmond;
+  border-radius: 10px;
 }
-.color{
-    border-radius: 10px;
-    height: 20px;
-    font-size: 13px;
-    padding-left: 5px;
-    width: 70%;
-    color: white;
-    background-color: lightcoral;
+.color {
+  border-radius: 10px;
+  height: 20px;
+  font-size: 13px;
+  padding-left: 5px;
+  width: 70%;
+  color: white;
+  background-color: lightcoral;
 }
-.inp{
-    border: 1px solid gray;
-    padding: 5px;
-    font-size: 20px;
-    width: 30%;
-    height: 40px;
-    background-color: azure;
+.inp {
+  border: 1px solid gray;
+  padding: 5px;
+  font-size: 20px;
+  width: 30%;
+  height: 40px;
+  background-color: azure;
 }
-.mediawidth{
-    width: 350px;
-    height: 300px;
-    border-radius: 10px;
+.mediawidth {
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
 }
-.medibtn{
-    background-color: red;
-    height: 50px;
-    border: none;
-    width: 10%;
-    font-size: 20px;
-    color: white;
-    margin-left: 10px;
-    cursor: pointer,
+.medibtn {
+  background-color: red;
+  height: 50px;
+  border: none;
+  width: 10%;
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
 }
-.lastmedia{
-    background-color: violet;
-    padding: 30px;
+.lastmedia {
+  background-color: violet;
+  padding: 30px;
 }
-.frame{
-   
-margin: auto;}
-@media(max-width:1000px){
-    body{
-        margin: 0%;
-        padding: 0%;
-    }
-   .main{
+.frame {
+  margin: auto;
+}
+@media (max-width: 1000px) {
+  body {
+    margin: 0%;
+    padding: 0%;
+  }
+  .main {
     display: block;
     text-align: center;
     margin: auto;
-   }
-  .icon{
+  }
+  .icon {
     display: flex;
     flex-direction: row;
-    
   }
-  .media{
+  .media {
     padding: 20px;
     margin: auto;
   }
- 
-  .text{
+
+  .text {
     margin: auto;
     width: 80%;
   }
-  .maintwo{
+  .maintwo {
     display: block;
   }
-  .textone{
+  .textone {
     width: 70%;
     text-align: center;
     margin: auto;
     padding: 20px;
-}
-.textwo{
-      padding: 20px;
+  }
+  .textwo {
+    padding: 20px;
     width: 70%;
     text-align: center;
     margin: auto;
   }
-  .widthmargin{
+  .widthmargin {
     width: 80%;
     text-align: center;
   }
-  .mediawidth{
+  .mediawidth {
     width: 80%;
     margin-left: 10%;
   }
-  .chaidmain{
+  .chaidmain {
     display: block;
     width: 100%;
   }
-  .cardone{
+  .cardone {
     width: 50%;
     margin: auto;
     display: flex;
@@ -245,46 +238,43 @@ margin: auto;}
     align-items: center;
     margin-bottom: 20px;
   }
-  .none{
+  .none {
     display: none;
   }
-  .flex{
+  .flex {
     display: block;
   }
-  .cardone2{
+  .cardone2 {
     margin: auto;
     margin-bottom: 20px;
     width: 50%;
-}
-.cardone3{
-      width: 50%;
+  }
+  .cardone3 {
+    width: 50%;
     margin: auto;
     margin-bottom: 20px;
-}
-.cardone4{
-      width: 50%;
-      margin: auto;
-      margin-bottom: 20px;
-
   }
-  .last{
+  .cardone4 {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .last {
     display: flex;
     flex-direction: column;
-    
   }
-  .inp{
+  .inp {
     width: 80%;
     margin: auto;
-}
-.medibtn{
-      margin: auto;
-      margin-top: 20px;
-      border: none;
-      cursor: pointer;
-      width: 50%
   }
-  .lastmedia{
+  .medibtn {
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+
+    width: 50%;
+  }
+  .lastmedia {
     text-align: center;
   }
-
 }
