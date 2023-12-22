@@ -27,14 +27,6 @@ const Index = () => {
       <section>
         <div className="main">
           <div className="icon">
-            <LinkedinOutlined
-              className="media"
-              style={{
-                color: " orange",
-                marginTop: "30px",
-                cursor: "pointer",
-              }}
-            />
             <InstagramOutlined
               className="media"
               style={{

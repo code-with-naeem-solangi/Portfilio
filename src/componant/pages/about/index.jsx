@@ -325,7 +325,7 @@ const About = () => {
               <h1>PORTFILIO</h1>
             </div>
             <div>
-              <h1>naeemsolangi604@gmail.com</h1>
+              <h1>naeemsolangi604</h1>
             </div>
           </div>
           <div style={{ textAlign: "center", padding: "40px" }}>
